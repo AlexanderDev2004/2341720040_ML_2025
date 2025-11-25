@@ -1,0 +1,3 @@
+model,C,gamma,test_accuracy
+Baseline RBF,1.0,scale,1.0
+Tuned RBF,100.0,0.001,1.0
