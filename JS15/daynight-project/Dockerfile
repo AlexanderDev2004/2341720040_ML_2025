@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 # Setup User Non-Root (Standar Keamanan HF)
 RUN useradd -m -u 1000 user
 USER user
-ENV PATH="/home/user/.local/bin:$PATH" 
+ENV PATH="/home/user/.local/bin:$PATH"
 
 # Setup Direktori Kerja
 WORKDIR /app
